@@ -1,10 +1,299 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My very own personal résumé.">
+    <meta name="keywords" content="Developer, Resume, Résumé, CV">
+    <meta name="author" content="Oksana Kovalenko">
+    <meta name="robots" content="index,follow">
+    <meta name="subject" content="Résumé">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="white">
+    <link rel="me" href="https://www.facebook.com/oksanaMKovalenko" type="text/html">
+    <link rel="me" href="mailto:ok.oksana.kovalenko@gmaol.com">
+    <link rel="me" href="skype:ok.oksana.kovalenko">
+    <link rel="me" href="tel:+380637797808">
+    <title>Oksana Kovalenko &mdash; Résumé</title>
+    <link rel="stylesheet" href="./assets/stylesheets/base.css">
+    <style>
+      .color.darkgreen:before {
+        background-color: darkgreen;
+      }
+      .color.olive:before {
+        background-color: olive;
+      }
+    </style>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+  <header>
+      <div class="credits">
+          Built using <a href="https://volodymyrkushnir.com/" rel="external"><strong>volodymyrkushnir.com</strong></a>
+      </div>
+    </header>
+    <main>
+      <article>
+        <div class="page" style="border-color: midnightblue;">
+          <div class="stackable grid">
+            <div class="row">
+              <div class="three wide center aligned column">
+                <div class="avatar-wrapper">
+                  <img class="avatar avatar-ext" src="./assets/images/avatar.svg" alt="My profile picture" style="border-radius: 45%; width: 100%">
+                </div>
+              </div>
+              <div class="thirteen wide column">
+                <div class="stackable grid">
+                  <div class="sixteen wide column">
+                    <h1 class="name">Oksana Kovalenko</h1>
+                  <div class="job">Newbie Developer</div>
+                  <ul class="contacts">
+                      <li>
+                        <a href="https://www.linkedin.com/in/oksanamkovalenko" rel="author" class="facebook">
+                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                          <span>oksanaMKovalenko</span>
+                        </a>
+                      </li>
+                    <li>
+                      <a href="https://www.facebook.com/oksanaMKovalenko" rel="author" class="facebook">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+                        <span>oksanaMKovalenko</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:ok.oksana.kovalenko@gmail.com" rel="author" class="mail">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                        <span>ok.oksana.kovalenko@gmail.com</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/okOvOko" rel="author" class="github">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                          <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                        <span>okoOvOko</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="skype:ok.oksana.kovalenko" rel="author" class="skype">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z"/></svg>
+                        <span>ok.oksana.kovalenko</span>
+                      </a>
+                    </li>
+                    <li>
+											<a href="tel:+380637797808" rel="author" class="phone">
+												<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
+												<span>+38 (063) 7797808</span>
+											</a>
+										</li>
+                  </ul>
+                  </div>
+                  <div class="sixteen wide mobile only column">
+                    <div class="divider"></div>
+                  </div>
+                  <div class="sixteen wide column">
+                    <h2>Résumé</h2>
+                    <p>&mdash; Hi! I'm a newbie developer with basic experience as a software developer. I still need to learn so much and I'm moving this way hoping to get better my skills and build up my practical and theoretical knowledge. It would be great to help to make the world a better place and people happier.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <div class="fat divider"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="ten wide column">
+                <h3>Experience</h3>
+                <h6>Recent</h6>
+                <ul class="timeline">
+                  <li class="highlighted">
+                    <p><em>11<sup>th</sup> Jun 2018 – 30<sup>th</sup> Oct 2018</em></p>
+                    <p><strong>Software Engineer</strong> at <strong><a href="https://www.portaone.com/" rel="external">PortaOne Inc</a></strong></p>
+                    <ol class="inverted">
+                      <li>
+                        <p><strong>Project: development and maintenance of tools for <em>"PortaSwitch in a cloud"</em> product</strong></p>
+                        <ul>
+                          <li class="details">
+                            <input type="checkbox" id="project-2">
+                            <label for="project-2" class="summary">responsibilities as a software engineer</label>
+                            <div>
+                              <ul>
+                                <li>Writing tests for the 'cloud manager' application, responsible for automation of cloud network changes during SIP cluster reconfiguration</li>
+                                <li>Development of 'terraform-cli' utility: Docker-based wrapper around Terraform to simplify maintenance of Oracle Cloud Infrastructure</li>
+                                <li>Writing functional tests for 'terraform-cli' utility</li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li>Stop eating cookies</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <p><strong>Project: application for evaluating the performance of RADIUS service</strong></p>
+                        <ul>
+                          <li class="details">
+                            <input type="checkbox" id="project-1">
+                            <label for="project-1" class="summary">responsibilities as a trainee</label>
+                            <div>
+                              <ul>
+                                <li>Implementation API (REST) to interact with angular based UI</li>
+                                <li>Implementation of adviser strategy units, responsible for analyzing service metrics and control of process manager</li>
+                                <li>Implementation of process manager to adjust generated RADIUS load</li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </li>
+                </ul>
+                <h6>Back then</h6>
+                <ul class="timeline">
+                  <li>
+                    <p><em>Apr 2016 &ndash; Jun 2018</em></p>
+                    <p><strong>Russian and Ukrainian Tutor for Foreigners, English Tutor for Koreans and Ukrainians</strong> <sup><a href="#"><strong>Self-Employed</strong></a></sup></p>
+                    <ul>
+                      <li>Adapting the studying process to the needs and abilities of students</li>
+                      <li>Monitoring students’ performance and achievements</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>Dec 2017 &ndash; Apr 2018</em></p>
+                    <p><strong>Administrative Manager</strong> at <a href="https://studyacademy.ua/" rel="external"><strong>Study Academy</strong></a></p>
+                    <ul>
+                      <li>Basecamp, Binotel, managing the company’s documentation at GDrive</li>
+                      <li>Working with the cash flow, ordering the households goods for the academy</li>
+                      <li>Day-to-day communication with native speakers, consulting clients, resolving issues with clients and staff if any occurs</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>Sep 2017 &ndash; Dec 2017</em></p>
+                    <p><strong>Administrator</strong> at <a href="https://atletiko.club/" rel="external"><strong>АтлетіКо</strong></a></p>
+                    <ul>
+                      <li>Working with 1C Предприятие system, control of the daily cash flow, consulting customers</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>December 2016</em></p>
+                    <p><strong>Parcels</strong> from <strong>friends from South Korea and Japan</strong> <sup><em>My perception was changed.</em></sup></p>
+                  </li>
+                  <li>
+                    <p><em>Beginning of 2016</em></p>
+                    <p>I'd started to learn <strong>Korean</strong> using <strong>English</strong> <sup><em>Goal: improve English through another language</em></sup></p>
+                  </li>
+                  <li>
+                    <p><em>Sep 2010 &ndash; May 2017</em></p>
+                    <p><strong>Math tutor</strong> <sup><a href="#"><strong>Self-Employed</strong></a></sup></p>
+                    <ul>
+                      <li>Working with students having a different level of knowledge: preparing for tests, exams, and admission to the university, applying experience and knowledge of psychology for teaching and motivating students</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>Jul 2012 &ndash; Sep 2012</em></p>
+                    <p><strong>Assistant Financial Controller</strong> at <a href="https://xtratv.com.ua/" rel="external"><strong>ISTIL Telecom Ukraine LLC (ISTIL Group)</strong></a></p>
+                    <ul>
+                      <li>VBA programming for local needs, working with databases (MySQL, SQL), budgeting, financial accounting and analysis, audit and monitoring</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>5<sup>th</sup> December 1990</em></p>
+                    <p><strong>Born</strong> in <strong><a href="https://goo.gl/maps/2hcttBEsasAyKUw7A" rel="external">Kyiv, Ukraine</a></strong> <sup><em>&mdash; Midnight?! It's time to wake up!</em></sup></p>
+                  </li>
+                </ul>
+              </div>
+              <div class="six wide column">
+                <section>
+                  <h3>Languages</h3>
+                  <p class="tags small">
+                    <span class="language" lang="uk">&#x1f1fa;&#x1f1e6; УКРАЇНСЬКА</span> <span class="language" lang="ru">&#x1f1f7;&#x1f1fa; РУССКИЙ</span> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span> <span class="language" lang="ko">&#x1F1F0;&#x1F1F7; KOREAN</span>
+                  </p>
+                </section>
+                <section>
+                  <h3>Skills</h3>
+                  <p class="tags small">HTML CSS BOOTSTRAP JS NPM PYTHON BASH C++ C# DOCKER GIT <span class="nowrap">MICROSOFT OFFICE</span> DELPHI LINUX WINDOWS MACOS KAIROSDB MYSQL SQL</p>
+                </section>
+                <section>
+                  <h3>Character</h3>
+                  <p class="tags small">
+                    LISTENER EXPLORER STRAIGHTFORWARD <a href="https://www.16personalities.com/estj-personality" rel="external">EXECUTIVE</a> DEDICATED STRONG-WILLED PATIENT SELF-MOTIVATED
+                  </p>
+                </section>
+                <section>
+                  <h3>Likes&#x1f603;</h3>
+                  <p class="tags small">
+                    PATIENCE VIOLIN ANIMALS MOVIES <span class="nowrap">LEARNING LANGUAGES</span> PIANO LVIV METALLICA UNICORNS<button id="darkgreen" class="color darkgreen">DARKGREEN</button> RAINBOW SELF-EDUCATION SKY BOOKS DRAWING SELF-DEVELOPMENT
+                  </p>
+                </section>
+                <section>
+                  <h3>Dislikes&#x1f61e;</h3>
+                  <p class="tags small">
+                    <span class="nowrap">OWN BAD HABITS</span> POLITICS <span class="nowrap">OBSESSIVE PEOPLE</span> <span class="nowrap">SMALL TALK</span> ALCOHOL <button id="olive" class="color olive">OLIVE</button> PESSIMISM INSECTS
+                  </p>
+                </section>
+                <section>
+                  <h3>Wants&#x1f97a;</h3>
+                  <p class="tags small bulleted">
+                    <span class="tag">TO BE FIT AND HEALTHY</span><span class="tag">TO OWN MY SCHEDULE</span><span class="tag">TO DRAW MORE</span><span class="tag">TO TRAVEL MORE</span><span class="tag">TO BE BRAVE</span><span class="tag">TO OWN A VILLA</span><span class="tag">TO BE HAPPIER</span>
+                  </p>
+                </section>
+                <section>
+                  <h3>Education</h3>
+                  <ul class="timeline">
+                    <li>
+                      <div><em>Every day</em></div>
+                      <p class="tags bulleted">
+                        <span class="tag">
+                          <a href="https://www.freecodecamp.org/" rel="external">
+                            <strong>freeCodeCamp</strong>
+                          </a>
+                        </span>
+                        <span class="tag">
+                          <a href="https://www.w3schools.com/" rel="external">
+                            <strong>w3school.com</strong>
+                          </a>
+                        </span>
+                        <span class="tag">
+                          <a href="https://metanit.com/" rel="external">
+                            <strong>METANIT.COM</strong>
+                          </a>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <div><em>1<sup>st</sup> September 2012 &ndash; 30<sup>th</sup> June 2014</em></div>
+                      <div><strong>Master's degree</strong> in <strong>Mathematics</strong> at <a href="https://kpi.ua/" rel="external"><strong>National Technical University of Ukraine 'Kyiv Polytechnic Institute'​</strong></a></div>
+                    </li>
+                    <li>
+                      <div><em>2012 &ndash; 2013</em></div>
+                      <div><strong>Boot Camp C/C++</strong> at <a href="https://devclub.com/" rel="external"><strong>DevClub</strong></a></div>
+                    </li>
+                    <li>
+                      <div><em>1<sup>st</sup> September 2008 &ndash; 30<sup>th</sup> June 2012</em></div>
+                      <div><strong>Bachelor's degree</strong> in <strong>Mathematics</strong> at <a href="https://kpi.ua/" rel="external"><strong>National Technical University of Ukraine 'Kyiv Polytechnic Institute'​</strong></a></div>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script>
+      function switchToColor(color) {
+        try {
+          document.querySelectorAll(".page").forEach(function(page) {
+            page.style.borderColor = color;
+          });
+          document.querySelectorAll("a").forEach(function(page) {
+            page.style.color = color;
+          });
+          document.querySelectorAll(".avatar").forEach(function(avatar) {
+            avatar.contentDocument.getElementById("circle").setAttribute("fill", color);
+          });
+        } catch (error) {}
+      }
+      document.getElementById("darkgreen").addEventListener("click", switchToColor.bind(this, "darkgreen"));
+      document.getElementById("olive").addEventListener("click", switchToColor.bind(this, "olive"));
+    </script>
   </body>
 </html>
